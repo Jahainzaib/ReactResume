@@ -1,4 +1,6 @@
 import React from 'react'
+import {HashRouter, Link } from 'react-router-dom';
+
 
 export default function Project() {
   return (
@@ -22,9 +24,11 @@ export default function Project() {
                     <img className="img-fluid" src="img/project-1.jpg" alt=""/>
                     <div className="portfolio-btn">
                         <a className="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/project-1.jpg"
-                            data-lightbox="portfolio"><i className="fa fa-eye"></i></a>
-                        <a className="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="HRMS.html"><i
-                                className="fa fa-link"></i></a>
+                            data-lightbox="portfolio"><i className="fa fa-eye"></i></a>                            
+                                <Link className="btn btn-lg-square btn-outline-secondary border-2 mx-1" to="hrms">
+                                <i className="fa fa-link"></i></Link>                            
+                        {/* <a className="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="HRMS.html"><i
+                                className="fa fa-link"></i></a> */}
                     </div>
                 </div>
             </div>
