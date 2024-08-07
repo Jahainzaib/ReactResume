@@ -17,9 +17,10 @@
 
 
     // Navbar on scrolling
-    $(window).scroll(function () {
-        if ($(this).scrollTop() > 300) {
+    $(window).on("scroll",function () {
+        if ($(this).scrollTop() > 100) {
             $('.navbar').fadeIn('slow').css('display', 'flex');
+
         } else {
             $('.navbar').fadeOut('slow').css('display', 'none');
         }
@@ -51,7 +52,7 @@
 
 
     // Back to top button
-    $(window).scroll(function () {
+    $(window).on("scroll",function () {
         if ($(this).scrollTop() > 300) {
             $('.back-to-top').fadeIn('slow');
         } else {
@@ -79,7 +80,7 @@
 
     // Modal Video
     var $videoSrc;
-    $('.btn-play').click(function () {
+    $('.btn-play').on("click",function () {
         $videoSrc = $(this).data("src");
     });
     console.log($videoSrc);
@@ -111,7 +112,7 @@
         itemSelector: '.portfolio-item',
         layoutMode: 'fitRows'
     });
-    $('#portfolio-flters li').on('click', function () {
+    $('#portfolio-flters li').on("click", function () {
         $("#portfolio-flters li").removeClass('active');
         $(this).addClass('active');
 
