@@ -11,7 +11,6 @@ export default function HRMS() {
             <span className="sr-only">Loading...</span>
         </div>
     </div>     */}
-    <Header/>
     <div className="container-xxl py-6" id="projectheading">
         <div className="container">
             <div className="row g-5">
@@ -219,7 +218,6 @@ export default function HRMS() {
             </div>
         </div>
     </div>
-    <Contact/>
 </>
   )
 }

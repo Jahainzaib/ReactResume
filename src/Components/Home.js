@@ -12,12 +12,10 @@ import 'waypoints/lib/jquery.waypoints';
 export default function Home() {
   return (
     <>    
-    <Header/>
     <About/>
     <Skill/>
     <Service/>
     <Project/>
-    <Contact/>
     <a href="#" className="btn btn-lg btn-primary btn-lg-square back-to-top"><i className="bi bi-arrow-up"></i></a>
     </>
       )
