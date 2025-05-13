@@ -32,10 +32,28 @@ export default function Skill() {
     <div className="container-xxl py-6 pb-5" id="skill">
         <div className="container">
             <div className="row g-5">
-                <div className="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                <div className="col-lg-12 wow fadeInUp" data-wow-delay="0.1s">
                     <h1 className="display-5 mb-5">Skills & Experience</h1>
-                    <p className="mb-4">Continuously expanding my skill set. while actively pursuing new technologies to
-                        stay at the forefront of innovation.</p>
+                    <p className="mb-4" style={{fontSize: "110%",color:"black"}}>
+                    Thank you for your interest in our services. We specialize in
+              full-cycle web application development using Microsoft
+              technologies. <br></br>
+              Below is an overview of our typical tech stack: <br></br>
+              <b>Frontend:</b>  HTML5, CSS3, JavaScript TypeScript Frameworks: React.js,
+              Angular, Blazor (as needed) UI Libraries: Bootstrap, Tailwind CSS,
+              Fluent UI <br></br>
+              <b>Backend:</b> ASP.NET Core, ASP.NET MVC, C#,
+              RESTful APIs & gRPC Entity Framework Core (for data access) <br></br>
+              <b>Database:</b> Microsoft SQL Server Azure SQL Database PostgreSQL / MySQL 
+              (when required by project) <br></br>
+              <b>DevOps & Cloud: </b>Microsoft Azure (App Services, Azure Functions, Azure DevOps, Blob Storage, Key Vault,
+              etc.) CI/CD using Azure DevOps or GitHub Actions Docker and
+              containerized deployments (where applicable) <br></br>
+              <b>Security & Standards:</b> OAuth2, OpenID Connect, JWT OWASP best practices GDPR
+              and ISO27001-compliant practices <br></br>
+              <b>Tools & Methodologies:</b> Visual Studio, VS Code Git, GitHub, Azure Repos Agile / Scrum project
+              management Jira, Trello, Azure Boards for tracking.
+                    </p>
                     <h3 className="mb-4">My Skills</h3>
                     <div className="row align-items-center">
                         <div className="col-md-6">
@@ -128,7 +146,7 @@ export default function Skill() {
                         </div>
                     </div>
                 </div>
-                <div className="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                {/* <div className="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
                     <ul className="nav nav-pills rounded border border-2 border-primary mb-5">
                         <li className="nav-item w-50">
                             <button className="nav-link w-100 py-3 fs-5 active" data-bs-toggle="pill"
@@ -166,7 +184,7 @@ export default function Skill() {
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> */}
             </div>
         </div>
     </div> 
