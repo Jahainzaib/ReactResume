@@ -10,7 +10,7 @@ import Header from "./Components/Header";
 function App() {
   return (
     <>
-      <Router basename="/ReactResume">
+      <Router basename="/Portfolio">
         <Navbar />
         <Header/>
         <Routes>
