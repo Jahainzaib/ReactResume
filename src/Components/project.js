@@ -66,6 +66,18 @@ const [filterKey, setFilterKey] = React.useState('*');
                         </div>
                     </div>
                 </div>
+                <div className="col-lg-4 col-md-6 portfolio-item second">
+                    <div className="portfolio-img rounded overflow-hidden">
+                        <img className="img-fluid" src={`${process.env.PUBLIC_URL}/img/TelcoApp.png`} alt=""/>
+                        <div className="portfolio-btn">
+                            <a className="btn btn-lg-square btn-outline-secondary border-2 mx-1"
+                                href={`${process.env.PUBLIC_URL}/img/TelcoApp.png`} data-lightbox="portfolio"><i
+                                    className="fa fa-eye"></i></a>
+                            <Link to="TelcoApp" className="btn btn-lg-square btn-outline-secondary border-2 mx-1"><i
+                                    className="fa fa-link"></i></Link>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
