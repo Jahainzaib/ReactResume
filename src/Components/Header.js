@@ -6,8 +6,8 @@ export default function Header() {
       <div className="container">
         <div className="row g-5 align-items-center">
           <div className="col-lg-6 py-4 pb-0 pt-lg-0" style={{ minHeight: "50vh" }}>
-            <h3 className="text-primary mb-3">We are</h3>
-            <h1 className="display-3 mb-3">Fusilance Solutions</h1>
+            <h3 className="text-primary mb-3">I am</h3>
+            <h1 className="display-3 mb-3">Syed Jahanzaib</h1>
             <h2 className="typed-text-output d-inline"></h2>
             <div className="typed-text d-none">
               Web Designer, Web Developer, Front End Developer, Apps Designer,
